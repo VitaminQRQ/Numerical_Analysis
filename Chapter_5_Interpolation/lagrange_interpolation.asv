@@ -1,0 +1,18 @@
+clc
+clear
+close all
+
+x_raw = [1; 1.1;     1.2;     1.3;     1.4];
+y_raw = [1; 1.23368; 1.55271; 1.99372; 2.661170];
+x_interp = 1.25;
+
+function LagrangeInterpolation(x_raw, y_raw, x_interp)
+    x_raw = reshape(x_raw, [length(x_raw), 1]);
+    y_raw = reshape(y_raw, [length(y_raw), 1]);
+    A_list = zeros(size(x_raw, 1));
+    L = 0;
+    for i = 1 : size(x_raw, 1)
+        L = 
+    end
+end
+
